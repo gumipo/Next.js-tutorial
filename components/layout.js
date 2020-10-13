@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 const name = "gumipo";
-export const siteTitle = "next.js tutorial";
+export const siteTitle = "next.js Tutorial";
 
 export default function Layout({ children, home }) {
   return (
@@ -54,6 +54,8 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+
+      {/* pages */}
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
