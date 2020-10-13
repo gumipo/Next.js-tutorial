@@ -13,6 +13,7 @@ import { getSortedPostsData } from "../lib/posts";
 //使い分け
 //可能な限り前者を使用する
 
+//static genaration
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
